@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#303f9f"
+    tools:context=".Vista_QR">
+
+    <TextView
+        android:id="@+id/txtexto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="32dp"
+        android:text="Información"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:textSize="25sp"/>
+
+    <Button
+        android:id="@+id/btnvalidar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginBottom="144dp"
+        android:background="@drawable/boton_redondo"
+        android:text="Validar" />
+
+    <Button
+        android:id="@+id/btncance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="254dp"
+        android:layout_marginBottom="142dp"
+        android:background="@drawable/boton_redondo_borde"
+        android:textColor="#FFFFFF"
+        android:text="Cancelar" />
+
+</RelativeLayout>
